@@ -48,15 +48,15 @@ package
 			LAS.addTarget(new LASBrowserConsoleTarget());
 			
 			// Different log levels
-			logger.debug("Logging some debug message."); 					// [66ms] [debug] [LoggerASExample] Logging some debug message.
-			logger.info("Logging some info message."); 						// [66ms] [info] [LoggerASExample] Logging some info message.
-			logger.log("Logging some info message with the log func."); 	// [67ms] [info] [LoggerASExample] Logging some info message with the log func.
-			logger.warn("Logging some warn message."); 						// [67ms] [warn] [LoggerASExample] Logging some warn message.
-			logger.error("Logging some error message.");					// [67ms] [error] [LoggerASExample] Logging some error message.
-			logger.fatal("Logging some fatal message.");					// [67ms] [fatal] [LoggerASExample] Logging some fatal message.
+			logger.debug("Logging some debug message.");
+			logger.info("Logging some info message.");
+			logger.log("Logging some info message with the log func.");
+			logger.warn("Logging some warn message.");
+			logger.error("Logging some error message.");
+			logger.fatal("Logging some fatal message.");
 			
 			// Get statistics about logged messages.
-			trace("Logged messages:", LAS.stats.messages, ", Fatals:", LAS.stats.fatalMessages); // Logged messages: 6 , Fatals: 1
+			trace("Logged messages:", LAS.stats.messages, ", Fatals:", LAS.stats.fatalMessages);
 		}
 	}
 }
