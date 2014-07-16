@@ -4,7 +4,7 @@ LoggerAS
 Simple, Small and Robust AS3 Logging Framework
 
 ## Includes
-* SWC Filesize 7KB
+* Small Filesize < 15 Kb
 * Lightweight
 * Fast
 * Extendible
